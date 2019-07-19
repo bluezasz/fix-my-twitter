@@ -1,0 +1,19 @@
+{
+	"description": "Gets back Twitter's old design by changing the useragent string",
+	"manifest_version": 2,
+	"version": "1.0",
+	"name": "Fix my Twitter!",
+
+	"icons": {
+		"48": "img/48.png",
+		"96": "img/96.png"
+	},
+	
+	"background": {
+		"scripts": ["background.js"]
+	},
+	
+	"permissions" : [
+		"https://twitter.com/*", "webRequest", "webRequestBlocking", "browsingData"
+	]
+}
